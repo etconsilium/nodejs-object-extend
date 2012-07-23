@@ -1,0 +1,22 @@
+{
+  "name": "object.extend",
+, "description": "Object.extend() like jQuery.extend()"
+, "url": ""
+, "keywords": [
+    "jQuery", "extend", "jQuery extend", "Object extend"
+  ]
+, "author": {
+    "name": "Vlad A. Koltsov",
+    "email": "v.koltsov@gmail.com"
+  }
+, "main": "./index.js"
+, "repository": {
+    "type": "git", "url": ""
+  }
+, "version": "0.0.2"
+, "license": "BSDL.v2"
+, "_id": "object.extend@0.0.2"
+, "engines": {
+    "node": "*"
+  }
+}
