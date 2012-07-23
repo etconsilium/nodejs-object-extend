@@ -1,17 +1,16 @@
 {
   "name": "object.extend",
-, "description": "Object.extend() like jQuery.extend()"
-, "url": ""
+, "description": "Object.extend() as jQuery.extend()"
+, "url": "https://github.com/etconsilium/nodejs-object-extend"
 , "keywords": [
     "jQuery", "extend", "jQuery extend", "Object extend"
   ]
 , "author": {
-    "name": "Vlad A. Koltsov",
-    "email": "v.koltsov@gmail.com"
+    "name": "Vlad A. Koltsov", "email": "v.koltsov@gmail.com"
   }
 , "main": "./index.js"
 , "repository": {
-    "type": "git", "url": ""
+    "type": "git", "url": "git://github.com/etconsilium/nodejs-object-extend.git"
   }
 , "version": "0.0.2"
 , "license": "BSDL.v2"
