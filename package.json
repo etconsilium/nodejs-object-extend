@@ -1,5 +1,5 @@
 {
-  "name": "object.extend",
+  "name": "object.extend"
 , "description": "Object.extend() as jQuery.extend()"
 , "url": "https://github.com/etconsilium/nodejs-object-extend"
 , "keywords": [
