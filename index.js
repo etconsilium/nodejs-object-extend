@@ -20,6 +20,10 @@
 		  , name: 'blogpost',
 		  , timeout: false
 		};
+
+		// also
+		var $extend = require('object.extend');
+		$extend(default, opts, {some: param});
  *
  */
 Object.defineProperty(Object.prototype, "extend", {
@@ -36,3 +40,11 @@ Object.defineProperty(Object.prototype, "extend", {
         return this;
     }
 });
+
+module.exports = function() {
+	var result = new Object;
+	for (var i = 0; i < arguments.length; i++) {
+		result = result.extend(arguments[i]);
+	};
+	return result;
+}

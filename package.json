@@ -12,9 +12,8 @@
 , "repository": {
     "type": "git", "url": "git://github.com/etconsilium/nodejs-object-extend.git"
   }
-, "version": "0.0.2"
+, "version": "0.1.1"
 , "license": "BSDL.v2"
-, "_id": "object.extend@0.0.2"
 , "engines": {
     "node": "*"
   }
