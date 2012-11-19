@@ -32,10 +32,13 @@ Object.defineProperty(Object.prototype, "extend", {
         var props = Object.getOwnPropertyNames(from);
         var dest = this;
         props.forEach(function(name) {
-            //if (name in dest) {
+            if ('object' == typeof from[name]) {
+            	var destination = dest[name].extend(from[name]);
+            }
+            else{
                 var destination = Object.getOwnPropertyDescriptor(from, name);
-                Object.defineProperty(dest, name, destination);
-            //}
+            }
+            Object.defineProperty(dest, name, destination);
         });
         return this;
     }

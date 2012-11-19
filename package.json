@@ -1,6 +1,6 @@
 {
   "name": "object.extend"
-, "description": "Object.extend() as jQuery.extend()"
+, "description": "Object.extend() as jQuery.extend(). v0.1.4 RECURSIVE"
 , "url": "https://github.com/etconsilium/nodejs-object-extend"
 , "keywords": [
     "jQuery", "extend", "jQuery extend", "Object extend"
@@ -12,12 +12,12 @@
 , "repository": {
     "type": "git", "url": "git://github.com/etconsilium/nodejs-object-extend.git"
   }
-, "version": "0.1.2"
+, "version": "0.1.4"
 , "license": "BSDL.v2"
 , "engines": {
     "node": "*"
   }
-, "_id": "object.extend@0.1.2"
+, "_id": "object.extend@0.1.4"
 , "_from": "object.extend@*"
 
 }
