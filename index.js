@@ -32,7 +32,9 @@ Object.defineProperty(Object.prototype, "extend", {
         var props = Object.getOwnPropertyNames(from);
         var dest = this;
         props.forEach(function(name) {
-            if ('object' == typeof from[name]) {
+            if ('object' == typeof from[name]
+            	&& 'undefined' == typeof from[name].indexOf
+            	&& 'undefined' != typeof dest[name]) {
             	var destination = dest[name].extend(from[name]);
             }
             else{

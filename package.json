@@ -1,23 +1,32 @@
 {
-  "name": "object.extend"
-, "description": "Object.extend() as jQuery.extend(). v0.1.4 RECURSIVE"
-, "url": "https://github.com/etconsilium/nodejs-object-extend"
-, "keywords": [
-    "jQuery", "extend", "jQuery extend", "Object extend"
-  ]
-, "author": {
-    "name": "Vlad A. Koltsov", "email": "v.koltsov@gmail.com"
-  }
-, "main": "./index.js"
-, "repository": {
-    "type": "git", "url": "git://github.com/etconsilium/nodejs-object-extend.git"
-  }
-, "version": "0.1.4"
-, "license": "BSDL.v2"
-, "engines": {
+  "name": "object.extend",
+  "description": "Object.extend() as jQuery.extend(). v0.1.4 RECURSIVE",
+  "url": "https://github.com/etconsilium/nodejs-object-extend",
+  "keywords": [
+    "jQuery",
+    "extend",
+    "jQuery extend",
+    "Object extend"
+  ],
+  "author": {
+    "name": "Vlad A. Koltsov",
+    "email": "v.koltsov@gmail.com"
+  },
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/etconsilium/nodejs-object-extend.git"
+  },
+  "version": "0.1.6",
+  "license": "BSDL.v2",
+  "engines": {
     "node": "*"
+  },
+  "_id": "object.extend@0.1.6",
+  "_from": "object.extend@0.1.6",
+  "readme": "nodejs-object-extend\n====================\n\nObject.extend() as jQuery.extend()\n\nNB: version 0.1.4 with recursive, 0.1.2 without r7e!",
+  "readmeFilename": "README.md",
+  "dist": {
+    "shasum": "f081e16bafee2c1555884c6d3fbec50c29aac60c"
   }
-, "_id": "object.extend@0.1.4"
-, "_from": "object.extend@*"
-
 }
